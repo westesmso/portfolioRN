@@ -62,32 +62,22 @@ export const projects: ProjectSection[] = [
   },
   {
     semester: '3º semestre',
-    title: 'Projeto interdisciplinar 3',
+    title: 'Pilates Studio',
     description:
-      'Inclua contexto, soluções implementadas, desafios encontrados, links úteis e evidências visuais.',
-    partner: 'Parceiro(s) do projeto',
+      'Projeto feito para gerenciar as reservas de um estúdio de pilates, com funcionalidades como cadastro de clientes, agendamento de aulas e controle de pagamentos.',
+    partner: 'Fatec Itaquera; Professor Marcos (professor orientador)',
     links: ['Repositório: https://github.com/westesmso/PI-Pilates-backend'],
-    photos: [
-      {
-        label: 'Foto 1',
-        source: require('../../assets/projeto_3/take_1.png'),
-      },
-    ],
+    photos: [],
     accent: '#22c55e',
   },
   {
     semester: '4º semestre',
     title: 'Atelie Java Spring',
     description:
-      'Finalize com visão do impacto do projeto, tecnologias, contribuição individual e próximos passos.',
-    partner: 'Parceiro(s) do projeto',
+      'Projeto feito para gerenciar as ordens de serviço de um ateliê de costura, com funcionalidades como cadastro de clientes, controle de estoque e gerenciamento de ordens de serviço tal como status, prazos e pagamentos, contando também como funcionalidades de gestão financeira.',
+    partner: 'Drih Ateliê; Softwork Solutions (startup que assumiu o projeto depois)',
     links: ['Repositório: https://github.com/westesmso/Atelie_java_spring'],
-    photos: [
-      {
-        label: 'Foto 1',
-        source: require('../../assets/projeto_4/take_1.png'),
-      },
-    ],
+    photos: [],
     accent: '#a855f7',
   },
 ];
